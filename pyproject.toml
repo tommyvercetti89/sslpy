@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sslpy"
+version = "2.0.0"
+description = "Kapsamli SSL/TLS Sertifika Guvenlik ve Denetim Araci"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "sslpy contributors" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: System :: Networking :: Monitoring"
+]
+dependencies = [
+    "cryptography>=41.0.0",
+    "idna>=3.4"
+]
+
+[project.scripts]
+sslpy = "sslpy:main"
+
+[tool.setuptools]
+py-modules = ["sslpy"]

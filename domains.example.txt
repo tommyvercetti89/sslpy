@@ -1,0 +1,14 @@
+# sslpy - Ornek Toplu Tarama Listesi
+# Her satira bir domain, URL veya host:port yazabilirsiniz.
+# '#' ile baslayan satirlar yoksayilir.
+
+# Standart Alan Adlari
+google.com
+github.com
+cloudflare.com
+
+# Ozel Portlar
+example.com:8443
+
+# URL Formatlari
+https://www.python.org/
