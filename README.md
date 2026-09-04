@@ -1,3 +1,7 @@
+[ Read in English ](README.en.md) | [ Türkçe Oku ](README.md)
+
+---
+
 # sslpy
 
 Kapsamlı SSL/TLS Sertifika Güvenlik ve Denetim Aracı.
