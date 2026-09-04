@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "sslpy"
 version = "2.0.0"
-description = "Kapsamli SSL/TLS Sertifika Guvenlik ve Denetim Araci"
+description = "Kapsamlı SSL/TLS Sertifika Güvenlik ve Denetim Aracı"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
