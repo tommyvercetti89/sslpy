@@ -22,6 +22,8 @@ ENV/
 
 # Output & report files
 *.json
+*.csv
+*.html
 *.log
 !domains.example.txt
 

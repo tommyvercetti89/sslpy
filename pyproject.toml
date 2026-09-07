@@ -21,7 +21,8 @@ classifiers = [
 ]
 dependencies = [
     "cryptography>=41.0.0",
-    "idna>=3.4"
+    "idna>=3.4",
+    "dnspython>=2.0.0"
 ]
 
 [project.scripts]
